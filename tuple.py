@@ -66,3 +66,8 @@ for w in words:
     print(w)
 
 print('------------------------------------------------------------')
+
+# De-duplicating the lists using tuples
+list_dup = ['tesla','toyota','honda','audi','bmw','tesla','nissan','toyota']
+tup_dedup=tuple(list_dup)
+print(tup_dedup)
